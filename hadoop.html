@@ -1,0 +1,29 @@
+<form action =  /cgi-bin/hadoop.py />
+
+
+where you want to run (local / remote) : <br>
+
+
+<input type = 'radio' name = 'l' value = 'local' /> Local 
+<input type = 'radio' name = 'l' value = 'remote' /> Remote
+<br>
+<br>
+
+what you want to create <br>
+<input type = 'radio' name = 'n' value = 'master' /> namenode
+<input type = 'radio' name = 'n' value = 'slave' /> datanode
+
+<br>
+enter ip address ( If Remote ): <br> 
+<input type = 'text' name = 'i' / >
+
+<br>
+
+enter password (If Remote) :  <input name = 'p' /> 
+<br>
+enter namenode ipaddress : <input name = 'ni' />
+<br>
+enter folder name you want to create in namenode / datanode : <input name = 'b' />
+<br>
+<br>
+<input type = 'submit' />
