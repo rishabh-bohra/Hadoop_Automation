@@ -1,2 +1,2 @@
 # Hadoop_Automation
-Automate Hadoop CLuster Setup
+Automate Hadoop Cluster Setup
